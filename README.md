@@ -79,7 +79,6 @@ Avant d'exécuter l'application, assurez-vous d'avoir installé :
 📌 
 <img width="262" alt="image" src="https://github.com/user-attachments/assets/d432bf4c-67b3-4d73-934a-779636736a76" />
 <img width="245" alt="image" src="https://github.com/user-attachments/assets/af7e1986-6361-416b-ad28-c012db0ebb55" />
-![Screenshot 2025-03-28 111920](https://github.com/user-attachments/assets/a4004c86-8404-4fd1-8f0a-85b853669681)
 <img width="245" alt="image" src="https://github.com/user-attachments/assets/b0e6c951-7b70-43b7-ac88-f0c6eb5d4f0e" />
 <img width="247" alt="image" src="https://github.com/user-attachments/assets/217f4871-7d18-4361-8d13-1abb58d5ada3" />
 
