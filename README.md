@@ -6,7 +6,7 @@ Bienvenue dans **Grocery App**, une application mobile développée en **Flutter
 
 ## 📌 Fonctionnalités Principales
 
-✅ **Authentification** (Inscription, Connexion, Google Sign-In, Firebase Auth)
+✅ **Authentification** (Inscription, Connexion avec gestion sécurisée des utilisateurs)
 ✅ **Recherche de produits** par catégories et mots-clés
 ✅ **Ajout au panier** et gestion des quantités
 ✅ **Suivi des commandes** en temps réel
@@ -24,7 +24,7 @@ Le projet suit une architecture **Clean Architecture** bien organisée :
 ```bash
 lib/
 │── core/                 # Classes de base (helpers, constantes, etc.)
-│── data/                 # Gestion des données (API, Firebase, repositories, models)
+│── data/                 # Gestion des données (API, repositories, models)
 │── domain/               # Cas d'utilisation et logiques métier
 │── presentation/         # UI et gestion des états (Bloc, Widgets, Pages)
 │── main.dart             # Point d'entrée de l'application
@@ -38,9 +38,7 @@ lib/
 |-----------------|-------------|
 | Flutter         | Framework de développement mobile |
 | Dart            | Langage de programmation |
-| Firebase Auth   | Authentification et gestion des utilisateurs |
-| Firestore       | Base de données en temps réel |
-| Google Maps API | Intégration de la carte et de la localisation |
+| REST API        | Communication avec le backend |
 | Stripe         | Paiement en ligne sécurisé |
 | Bloc           | Gestion d'état avec Bloc |
 
@@ -52,7 +50,6 @@ lib/
 Avant d'exécuter l'application, assurez-vous d'avoir installé :
 - **Flutter** (dernière version) ➜ [Installation Flutter](https://flutter.dev/docs/get-started/install)
 - **Dart SDK** (inclus avec Flutter)
-- **Firebase CLI** pour l'intégration Firebase
 
 ### 🏗 Étapes d'installation
 
@@ -67,9 +64,8 @@ Avant d'exécuter l'application, assurez-vous d'avoir installé :
    flutter pub get
    ```
 
-3. **Configurer Firebase** :
-   - Créer un projet Firebase et l'ajouter à Flutter ([Documentation](https://firebase.flutter.dev/docs/overview))
-   - Placer le fichier `google-services.json` (Android) et `GoogleService-Info.plist` (iOS) dans les dossiers appropriés
+3. **Configurer les API** :
+   - Ajouter les clés API nécessaires dans un fichier de configuration sécurisé (`.env` ou `secrets.dart`)
 
 4. **Lancer l'application** :
    ```bash
@@ -81,6 +77,14 @@ Avant d'exécuter l'application, assurez-vous d'avoir installé :
 ## 🎨 Captures d'écran
 
 📌 
+<img width="262" alt="image" src="https://github.com/user-attachments/assets/d432bf4c-67b3-4d73-934a-779636736a76" />
+<img width="245" alt="image" src="https://github.com/user-attachments/assets/af7e1986-6361-416b-ad28-c012db0ebb55" />
+![Screenshot 2025-03-28 111920](https://github.com/user-attachments/assets/a4004c86-8404-4fd1-8f0a-85b853669681)
+<img width="245" alt="image" src="https://github.com/user-attachments/assets/b0e6c951-7b70-43b7-ac88-f0c6eb5d4f0e" />
+<img width="247" alt="image" src="https://github.com/user-attachments/assets/217f4871-7d18-4361-8d13-1abb58d5ada3" />
+
+
+
 ---
 
 ## 🤝 Contribution
@@ -93,7 +97,6 @@ Les contributions sont les bienvenues ! Pour contribuer :
 5. **Ouvre une Pull Request** 🛠
 
 ---
-
 
 
 📩 **Besoin d'aide ?** Contacte-moi sur [[LinkedIn](https://linkedin.com/in/tonprofil)](https://www.linkedin.com/in/moutawassit-abdelali-98bb95267/) ou crée une issue sur le repo !
